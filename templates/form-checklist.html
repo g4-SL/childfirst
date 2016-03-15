@@ -1,0 +1,109 @@
+<!-- 
+form-checklist.html 
+Author: Capstone Child First
+  Sarah Louise Leong
+Last Updated: 03 March 2015 
+Description: form layout container for checklist page
+-->
+
+<h1>{{translation.lan.CHECKLIST}}</h1>
+<br>
+
+<div class="form-group">
+    <label class="control-label col-xs-3" id="label-title">{{translation.lan.EMERGENCY_OUTREACH_ITEMS}}</label>
+    <div class="container col-xs-9">
+        <div>
+          <label class="checkbox">
+            <input type="checkbox" ng-model="formData.A" ng-true-value="1" >{{translation.lan.EMERGENCY_OUTREACH_ITEMS_A}}</label>
+          <label class="checkbox">
+            <input type="checkbox" ng-model="formData.B" ng-true-value="1">{{translation.lan.EMERGENCY_OUTREACH_ITEMS_B}}</label>
+          <label class="checkbox">
+            <input type="checkbox" ng-model="formData.C" ng-true-value="1">{{translation.lan.EMERGENCY_OUTREACH_ITEMS_C}}</label>
+          <label class="checkbox">
+            <input type="checkbox" ng-model="formData.D" ng-true-value="1">{{translation.lan.EMERGENCY_OUTREACH_ITEMS_D}}</label>
+          <label class="checkbox">
+            <input type="checkbox" ng-model="formData.E" ng-true-value="1">{{translation.lan.EMERGENCY_OUTREACH_ITEMS_E}}</label>
+          <label class="checkbox">
+            <input type="checkbox" ng-model="formData.F" ng-true-value="1">{{translation.lan.EMERGENCY_OUTREACH_ITEMS_F}}</label>
+        </div>
+    </div>
+</div>
+
+<div class="form-group">
+    <label class="control-label col-xs-3" id="label-title">{{translation.lan.CHILD_CUSTODY_ITEMS}}</label>
+    <div class="container col-xs-9">
+        <div>
+            <h3>{{translation.lan.CHILD_CONDITION}}</h3>
+          <label class="checkbox">
+            <input type="checkbox" ng-model="formData.Child_condition1" ng-true-value="1">{{translation.lan.CHILD_CONDITION_1}}</label>
+          <label class="checkbox">
+            <input type="checkbox" ng-model="formData.Child_condition2" ng-true-value="1">{{translation.lan.CHILD_CONDITION_2}}</label>
+          <label class="checkbox">
+            <input type="checkbox" ng-model="formData.Child_condition3" ng-true-value="1">{{translation.lan.CHILD_CONDITION_3}}</label>
+
+            <h3>{{translation.lan.ENVIRONMENT_FACTORS}}</h3>
+          <label class="checkbox">
+            <input type="checkbox" ng-model="formData.Environmental_factors1" ng-true-value="1">{{translation.lan.ENVIRONMENT_FACTORS_1}}</label>
+          <label class="checkbox">
+            <input type="checkbox" ng-model="formData.Environmental_factors2" ng-true-value="1">{{translation.lan.ENVIRONMENT_FACTORS_2}}</label>
+          <label class="checkbox">
+            <input type="checkbox" ng-model="formData.Environmental_factors3" ng-true-value="1">{{translation.lan.ENVIRONMENT_FACTORS_3}}</label>
+
+            <h3>{{translation.lan.PARENTS_FACTORS}}</h3>
+          <label class="checkbox">
+            <input type="checkbox" ng-model="formData.Parents_factor1" ng-true-value="1">{{translation.lan.PARENTS_FACTORS_1}}</label>
+          <label class="checkbox">
+            <input type="checkbox" ng-model="formData.Parents_factor2" ng-true-value="1">{{translation.lan.PARENTS_FACTORS_2}}</label>
+          <label class="checkbox">
+            <input type="checkbox" ng-model="formData.Parents_factor3" ng-true-value="1">{{translation.lan.PARENTS_FACTORS_3}}</label>
+
+            <h3>{{translation.lan.SYMPTOM}}</h3>
+          <label class="checkbox">
+            <input type="checkbox" ng-model="formData.Symptom1" ng-true-value="1">{{translation.lan.SYMPTOM_1}}</label>
+          <label class="checkbox">
+            <input type="checkbox" ng-model="formData.Symptom2" ng-true-value="1">{{translation.lan.SYMPTOM_2}}</label>
+          <label class="checkbox">
+            <input type="checkbox" ng-model="formData.Symptom3" ng-true-value="1">{{translation.lan.SYMPTOM_3}}</label>
+          <label class="checkbox">
+            <input type="checkbox" ng-model="formData.Symptom4" ng-true-value="1">{{translation.lan.SYMPTOM_4}}</label>
+
+            <h3>{{translation.lan.OTHERS}}</h3>
+          <label class="checkbox">
+            <input type="checkbox" ng-model="formData.Other1" ng-true-value="1">{{translation.lan.OTHER_1}}</label>
+          <label class="checkbox">
+            <input type="checkbox" ng-model="formData.Other2" ng-true-value="1">{{translation.lan.OTHER_2}}</label>
+        </div>
+    </div>
+</div>
+
+<div class="form-group">
+    <label class="control-label col-xs-3" id="label-title">{{translation.lan.DECISION_ON_CHILD_CUSTODY}}</label>
+    <div class="container col-xs-9">
+        <div>
+          <label class="radio">
+            <input type="radio" value="0" ng-model="formData.childCustodyDecision">{{translation.lan.DECISION_ON_CHILD_CUSTODY_A}}</label>
+          <label class="radio">
+            <input type="radio" value="1" ng-model="formData.childCustodyDecision">{{translation.lan.DECISION_ON_CHILD_CUSTODY_B}}</label>
+          <label class="radio">
+            <input type="radio" value="2" ng-model="formData.childCustodyDecision">{{translation.lan.DECISION_ON_CHILD_CUSTODY_C}}</label>
+        </div>
+    </div>
+</div>
+<br><br>
+
+<div class="col-xs-3">
+    <a ui-sref="form.childinfo" class="btn btn-block btn-info">
+    <span class="glyphicon glyphicon-circle-arrow-left"></span>     {{translation.lan.PREVIOUS_SECTION}}
+    </a>
+</div>
+<div class="col-xs-3 col-xs-offset-6">  
+    <button type="submit" class="btn btn-danger">{{translation.lan.SUBMIT}}</button>
+</div>
+
+<!-- submit button to submit form and move to new page -->
+<!-- <div class="form-group row">
+<div class="col-xs-6 col-xs-offset-3">
+    <a ui-sref="form.checkSubmission" class="btn btn-danger">
+    Submit</a>
+</div>
+</div> -->

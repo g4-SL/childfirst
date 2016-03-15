@@ -1,0 +1,39 @@
+<form id="login-form" class="form-horizontal" ng-controller="loginFormController">
+
+		<div class="container">
+        <h1>Edit Account</h1>
+        <br>
+
+        <p style="color:black">For {{curr_username}}</p>
+        <div class="form-group">
+            <label class="control-label col-xs-3" id="label-title">Old Password</label>
+            <div class="col-xs-9">
+                <input type="password" class="form-control" placeholder="Password" ng-model="admin.oldPassword" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-xs-3" id="label-title">New Password</label>
+            <div class="col-xs-9">
+                <input type="password" class="form-control" placeholder="Password" ng-model="admin.newPassword" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-xs-3" id="label-title">Type of user</label>
+            <div class="col-xs-9">
+                <select class="form-control" ng-model="admin.editUserType">
+                    <option value="0">Social Worker</option>
+                    <option value="1">Admin</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="form-group">
+			<div class="ngdialog-buttons">
+				<button type="button" class="ngdialog-button ngdialog-button-primary" ng-click="editAccount()">Confirm</button>
+			</div>
+        </div> 
+    </div>
+
+</form>

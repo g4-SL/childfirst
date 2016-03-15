@@ -1,0 +1,69 @@
+<!-- 
+form-reportinfo.html 
+Author: Capstone Child First Group 54
+        Sarah Louise Leong
+Last Updated: 10 March 2015 
+Description: form layout container for report information page
+-->
+
+<h1>{{translation.lan.REPORT_INFORMATION}}</h1>
+<br>
+
+<div class="form-group">
+    <label class="control-label col-xs-3" for="date_mandatoryReport">{{translation.lan.DATE_OF_REPORT}}</label>
+    <div class="col-xs-9">
+        <input type="datetime-local" class="form-control " name="date_mandatoryReport" ng-model="formData.date_mandatoryReport">
+    </div>
+</div>
+
+<div class="form-group">
+    <label class="control-label col-xs-3" for="reportFrom">{{translation.lan.REPORT_FROM}}</label>
+    <div class="col-xs-9">
+        <input type="text" class="form-control" name="reportFrom" ng-model="formData.reportFrom">
+    </div>
+</div>
+
+<div class="form-group">
+    <label class="control-label col-xs-3" for="date_emergencyMeeting">{{translation.lan.EMERGENCY_MEETING}}</label>
+    <div class="col-xs-9">
+        <input type="datetime-local" class="form-control" name="date_emergencyMeeting" ng-model="formData.date_emergencyMeeting">
+    </div>
+</div>
+
+<div class="form-group">
+    <label class="control-label col-xs-3" for="date_childCustody">{{translation.lan.CHILD_CUSTODY}}</label>
+    <div class="col-xs-9">
+        <input type="datetime-local" class="form-control" name="date_childCustody" ng-model="formData.date_childCustody">
+    </div>
+</div>
+
+<div class="form-group">
+    <label class="control-label col-xs-3" for="date_emergencyOutreach">{{translation.lan.EMERGENCY_OUTREACH_DATE}}</label>
+    <div class="col-xs-9">
+        <input type="datetime-local" class="form-control" name="date_emergencyOutreach" ng-model="formData.date_emergencyOutreach">
+    </div>
+</div>
+
+<div class="form-group">
+    <label class="control-label col-xs-3" for="date_childSafety">{{translation.lan.CHILD_SAFETY_CONFIRMATION_DATE}}</label>
+    <div class="col-xs-9">
+        <input type="datetime-local" class="form-control" name="date_childSafety" ng-model="formData.date_childSafety">
+    </div>
+</div>
+
+<div class="form-group">
+    <label class="control-label col-xs-3" for="date_childProtection">{{translation.lan.CHILD_PROTECTION_DATE}}</label>
+    <div class="col-xs-9">
+        <input type="datetime-local" class="form-control" name="date_childProtection" ng-model="formData.date_childProtection">
+    </div>
+</div>
+<br><br>
+
+<!-- submit button to move to the next section -->
+<div class="form-group row">
+<div class="col-xs-3 col-xs-offset-9">
+    <a ui-sref="form.childinfo" class="btn btn-block btn-info">
+    {{translation.lan.NEXT_SECTION}}   <span class="glyphicon glyphicon-circle-arrow-right"></span>
+    </a>
+</div>
+</div>

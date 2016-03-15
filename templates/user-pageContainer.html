@@ -1,0 +1,40 @@
+<!-- 
+user-pageContainer.html 
+Author: Capstone Child First Group 54
+        Sarah Louise Leong
+Last Updated: 27 March 2015 
+Description: default form container containing all other pages
+-->
+
+<div class="page-header text-center">
+    <div ui-view="header"></div>
+</div>
+
+<div class="container">
+<div class="row-fluid">
+
+    <div class="col-xs-3">
+
+        <div class="pa-sidebar well well-small">
+          <ul class="nav nav-list">
+            <li>
+                <a id="sidebarText" ui-sref="normal.dashboard">Dashboard</a>
+            </li><hr>
+            <li>
+                <a id="sidebarText" ui-sref="normal.accountDetails">Account Details</a>
+            </li><hr>
+            <li>
+                <a id="sidebarText" href ng-click="changeState()">Risk Assessment Sheet</a>
+            </li>
+          </ul>
+        </div>
+
+        <a ui-sref="login" class="btn btn-block btn-info">Log Out</a>
+        
+    </div>
+
+    <div class="col-xs-9">
+        <div ui-view="content"></div>
+    </div>
+</div>
+</div>

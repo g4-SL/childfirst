@@ -1,0 +1,92 @@
+{  
+    "COLOR" : "Color",
+    "HELLO" : "Hello",
+    "HELLO_WORLD" : "Hello World!",
+    "TITLE" : "Risk Assesment Sheet",
+    "CHOOSE_LANGUAGE_DESCRIPTION" : "Select your language preference",
+
+    "LANGUAGE_PREFERENCE"   : "Language Preference",
+    "REPORT_INFORMATION"    : "Report Information",
+    "CHILD_INFORMATION"     : "Child Information",
+    "CHECKLIST"             : "Checklist",
+
+    "DATE_OF_REPORT"    : "Date of Report",
+    "REPORT_FROM"       : "Report From",
+    "EMERGENCY_MEETING" : "Emergency Meeting",
+    "CHILD_CUSTODY"     : "Child Custody",
+    "EMERGENCY_OUTREACH_DATE"           : "Emergency Outreach Date",
+    "CHILD_SAFETY_CONFIRMATION_DATE"    : "Child Safety Confirmation Date",
+    "CHILD_PROTECTION_DATE"             : "Child Protection Date",
+
+    "CHILD_NAME"        : "Child Name",
+    "GENDER"            : "Gender",
+    "MALE"              : "Male",
+    "FEMALE"            : "Female",
+    "SIBLING"           : "Sibling",
+    "DATE_OF_BIRTH"     : "Date of Birth",
+    "MAIN_OFFENDER"     : "Main Offender",
+    "MAIN_ABUSE_TYPE"   : "Main Abuse Type",
+    "STATE"             : "State",
+
+    "BIOLOGICAL_FATHER" : "Biological father",
+    "STEP_FATHER"       : "Step father",
+    "BIOLOGICAL_MOTHER" : "Biological mother",
+    "STEP_MOTHER"       : "Step mother",
+    "OTHERS"            : "Others",
+    "OTHERS_DESC"       : "If others is checked, specify who the main offender is below",
+
+    "PHYSICAL_ABUSE"    : "Physical abuse",
+    "SEXUAL_ABUSE"      : "Sexual abuse",
+    "NEGLECT"           : "Neglect",
+    "EMOTIONAL_ABUSE"   : "Emotional abuse",
+
+    "MEDICAL_DIAGNOSIS"     : "Medical diagnosis",
+    "MENTALLY_HANDICAPPED"  : "Mentally handicapped",
+    "PHYSICALLY_HANDICAPPED": "Physically handicapped",
+    "SOCIAL_WITHDRAW"       : "Social withdraw",
+
+    "EMERGENCY_OUTREACH_ITEMS"  : "Emergency Outreach Items",
+    "CHILD_CUSTODY_ITEMS"       : "Child Custody Items",
+    "DECISION_ON_CHILD_CUSTODY" : "Decision on Child Custody",
+
+    "EMERGENCY_OUTREACH_ITEMS_A" : "Nobody meet the child at the mandatory report day",
+    "EMERGENCY_OUTREACH_ITEMS_B" : "CPS can not decide child safety from the information that CPS has",
+    "EMERGENCY_OUTREACH_ITEMS_C" : "Child have serious injuries (including suspected) at the time",
+    "EMERGENCY_OUTREACH_ITEMS_D" : "Child have possibility to be abused repeatedly (including suspected)",
+    "EMERGENCY_OUTREACH_ITEMS_E" : "Child feel fear and anxiety for going back to their home",
+    "EMERGENCY_OUTREACH_ITEMS_F" : "The child has abused history and it might be recurrent case in this time",
+    
+    "CHILD_CONDITION"           : "Child condition",
+    "CHILD_CONDITION_1"         : "Children has injuries and/or bruises on above of their neck",
+    "CHILD_CONDITION_2"         : "Under 3 years old children have unknown injuries and bruises",
+    "CHILD_CONDITION_3"         : "Serious neglect and/or parents leave their children in their home",
+
+    "ENVIRONMENT_FACTORS"       : "Environment factors",
+    "ENVIRONMENT_FACTORS_1"     : "Child want to be protected by CPS or parents ask CPS to protect their children",
+    "ENVIRONMENT_FACTORS_2"     : "CPS couldn’t contact with parents and/or children in the middle of investigation or supporting",
+    "ENVIRONMENT_FACTORS_3"     : "Nobody has met the children for a certain period of time",
+
+    "PARENTS_FACTORS"           : "Parents factors",
+    "PARENTS_FACTORS_1"         : "Parents are angry and won't talk about children safety",
+    "PARENTS_FACTORS_2"         : "Parents are in denial and won't talk about children safety",
+    "PARENTS_FACTORS_3"         : "There are sibling child abuse death, unknown death, accidental death when CPS received report",
+
+    "SYMPTOM"       : "Symptom",
+    "SYMPTOM_1"     : "Child sexual abuse (including suspected)",
+    "SYMPTOM_2"     : "Shaken baby syndrome/abused head trauma (including suspected)",
+    "SYMPTOM_3"     : "Medical neglect and/or Munchausen syndrome by proxy (including past cases)",
+    "SYMPTOM_4"     : "Reporter witnessed parents hit, kicked or spanked their children in public places",
+
+    "OTHERS"        : "Others",
+    "OTHER_1"       : "CPS don't know detail of the cases even if they investigated the cases well (There is no information about child safety/Unreliable parents' confession/Parents don't know the reason why children were injured or bruised)",
+    "OTHER_2"       : "CPS have not experienced the cases",
+
+    "DECISION_ON_CHILD_CUSTODY_A" : "No child custody",
+    "DECISION_ON_CHILD_CUSTODY_B" : "No child custody but conditional",
+    "DECISION_ON_CHILD_CUSTODY_C" : "Child custody granted",
+
+    "CONFIRM"           : "Confirm",
+    "PREVIOUS_SECTION"  : "Previous",
+    "NEXT_SECTION"      : "Next",
+    "SUBMIT"            : "Submit"  
+}

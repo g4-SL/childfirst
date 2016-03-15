@@ -1,0 +1,47 @@
+<!-- 
+admin-loginform.html 
+Author: Capstone Child First Group 54
+        Sarah Louise Leong
+Last Updated: 24 March 2015 
+Description: default form container containing all other pages
+-->
+
+<div class="row">
+<div class="col-sm-8 col-sm-offset-2">
+
+    <div id="login-container">
+
+        <div class="page-header text-center">
+            <h2>User Login</h2>
+        </div>
+        
+        <form id="login-form" class="form-horizontal" ng-controller="loginFormController" ng-submit="validateLogIn()">
+
+            <div class="container">
+                <br><br>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Username" ng-model="loginForm.username" />
+                    <!-- <i class="icon ion-person"></i> -->
+                </div>
+
+                <div class="form-group">
+                    <input type="password" class="form-control" placeholder="Password" ng-model="loginForm.password" />
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" class="btn btn-block btn-info">Sign In</button>
+                </div> 
+                <br>
+            </div>
+
+        </form>
+
+    </div>
+
+    <div class="container" style="width:60%">
+        <p>For testing purposes, use these username/password combinations to access the accounts<br>
+            <font style="font-size:20px"><b><u>Admin account</b></u></font><br> Username: a<br> Password: s <br>
+            <font style="font-size:20px"><b><u>Normal account</b></u></font><br> Username: z<br> Password: x
+        </p>
+    </div>
+</div>

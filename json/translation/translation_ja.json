@@ -1,0 +1,92 @@
+{  
+    "COLOR" : "色",
+    "HELLO" : "こんにちは",
+    "HELLO_WORLD" : "こんにちは世界",
+    "TITLE" : "リスクアセスメントシート",
+    "CHOOSE_LANGUAGE_DESCRIPTION" : "仕様言語を設定してください",
+
+    "LANGUAGE_PREFERENCE"   : "言語設定",
+    "REPORT_INFORMATION"    : "レポート情報",
+    "CHILD_INFORMATION"     : "児童情報",
+    "CHECKLIST"             : "チェックリスト",
+
+    "DATE_OF_REPORT"    : "通告日時",
+    "REPORT_FROM"       : "通告受理の経路",
+    "EMERGENCY_MEETING" : "緊急受理会議時",
+    "CHILD_CUSTODY"     : "保護判断時",
+    "EMERGENCY_OUTREACH_DATE"           : "緊急出動日時",
+    "CHILD_SAFETY_CONFIRMATION_DATE"    : "安全確認日時",
+    "CHILD_PROTECTION_DATE"             : "一時保護入所日時",
+
+    "CHILD_NAME"        : "児童氏名",
+    "GENDER"            : "性別",
+    "MALE"              : "男",
+    "FEMALE"            : "女",
+    "SIBLING"           : "きょうだいの有無",
+    "DATE_OF_BIRTH"     : "生年月日",
+    "MAIN_OFFENDER"     : "主たる虐待者",
+    "MAIN_ABUSE_TYPE"   : "主たる虐待種別",
+    "STATE"             : "保護者の話より児童自身の調査を優先する項目",
+
+    "BIOLOGICAL_FATHER" : "実父",
+    "STEP_FATHER"       : "実父以外の父",
+    "BIOLOGICAL_MOTHER" : "実母",
+    "STEP_MOTHER"       : "実母以外の母",
+    "OTHERS"            : "その他",    
+    "OTHERS_DESC"        : "その他にチェックの場合、以下に主たる虐待者を記入すること",
+
+    "PHYSICAL_ABUSE"    : "身体的障害",
+    "SEXUAL_ABUSE"      : "性的虐待",
+    "NEGLECT"           : "保護の怠情・拒否",
+    "EMOTIONAL_ABUSE"   : "心理的虐待",
+
+    "MEDICAL_DIAGNOSIS"     : "医学・精神医学上の診断あり",
+    "MENTALLY_HANDICAPPED"  : "知的障害（発達・言葉の遅れ）",
+    "PHYSICALLY_HANDICAPPED": "身体障害（歩行不能・肢体不自由）",
+    "SOCIAL_WITHDRAW"       : "学齢での不登校",
+
+    "EMERGENCY_OUTREACH_ITEMS"  : "緊急出動を検討する項目",
+    "CHILD_CUSTODY_ITEMS"       : "一時保護を検討する項目",
+    "DECISION_ON_CHILD_CUSTODY" : "決定に対する意思決定",
+
+    "EMERGENCY_OUTREACH_ITEMS_A" : "今日、児童にどの機関も会えていない",
+    "EMERGENCY_OUTREACH_ITEMS_B" : "関係機関の情報で、現在児童の安全を確定させることができない",
+    "EMERGENCY_OUTREACH_ITEMS_C" : "現時点で児童に重大なケガがある（と判断される）",
+    "EMERGENCY_OUTREACH_ITEMS_D" : "児童が継続して虐待される兆候がある（と判断される）)",
+    "EMERGENCY_OUTREACH_ITEMS_E" : "児童が帰宅することに不安または恐怖を感じている",
+    "EMERGENCY_OUTREACH_ITEMS_F" : "過去に虐待に関する係属歴があり、再受付となったケース（現在指導ケースの再通告、新事実が明らかになった場合は該当。ただし、現在指導ケースの同一事実の再通告は除く。）",
+    
+    "CHILD_CONDITION"           : "状態像",
+    "CHILD_CONDITION_1"         : "キズアザが首から上・腹部にある",
+    "CHILD_CONDITION_2"         : "おおむね三歳以下の児童に理由不明のキズアザがある",
+    "CHILD_CONDITION_3"         : "命に関わるネグレクト（野外放置を含む）、本人不在による子どもだけでの放置または徘徊",
+
+    "ENVIRONMENT_FACTORS"       : "環境要因",
+    "ENVIRONMENT_FACTORS_1"     : "児童自身、または保護者自身が保護を訴える",
+    "ENVIRONMENT_FACTORS_2"     : "指導中に保護者または児童と連絡が取れなくなった、会えなくなった",
+    "ENVIRONMENT_FACTORS_3"     : "相当期間、どの機関も児童に会えていない",
+
+    "PARENTS_FACTORS"           : "保護者要因",
+    "PARENTS_FACTORS_1"         : "保護者の衝動性・攻撃性が強く、児童の安全責任について冷静に話し合いができない",
+    "PARENTS_FACTORS_2"         : "保護者が拒否的であり、児童の安全責任について児童相談所との話し合いに応じない",
+    "PARENTS_FACTORS_3"         : "受理時にきょうだいに虐待死・死因不明死・事故死情報がある",
+
+    "SYMPTOM"       : "症状",
+    "SYMPTOM_1"     : "性的虐待（家庭内＆家庭内に準ずる）の疑い",
+    "SYMPTOM_2"     : "SBSの疑い（過去を含む）",
+    "SYMPTOM_3"     : "医療（ヘルスケア）ネグレクト、過去を含むMSBPなどの医療虐待",
+    "SYMPTOM_4"     : "目の前で児童を殴っているのを通告者がみたとき",
+
+    "OTHERS"        : "その他",
+    "OTHER_1"       : "初期調査をしても詳しいことがわからない（安全に関する情報がない・保護者が児童の事故やキズアザの理由がわからない・保護者の言い分が正しいかわからないなど）",
+    "OTHER_2"       : "今までに経験したことのない事例",
+
+    "DECISION_ON_CHILD_CUSTODY_A" : "非該当",
+    "DECISION_ON_CHILD_CUSTODY_B" : "条件付き在宅",
+    "DECISION_ON_CHILD_CUSTODY_C" : "一時保護判断",
+
+    "CONFIRM"           : "確認",
+    "PREVIOUS_SECTION"  : "前の項目",
+    "NEXT_SECTION"      : "次の項目",
+    "SUBMIT"            : "提出"  
+}

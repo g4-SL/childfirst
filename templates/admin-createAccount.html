@@ -1,0 +1,40 @@
+<div class="row">
+
+    <form id="login-form" class="form-horizontal" ng-controller="loginFormController" ng-submit="createAccount()">
+
+        <div class="container">
+            <div class="form-group">
+                <label class="control-label col-xs-3" id="label-title" style="color:white">Username</label>
+                <div class="col-xs-9">
+                    <input type="text" class="form-control" placeholder="Username" ng-model="admin.newUsername" />
+                </div>
+            </div>
+            <hr>
+
+            <div class="form-group">
+                <label class="control-label col-xs-3" id="label-title" style="color:white">Password</label>
+                <div class="col-xs-9">
+                    <input type="password" class="form-control" placeholder="Password" ng-model="admin.newPass"/>
+                </div>
+            </div>
+            <hr>
+
+            <div class="form-group">
+                <label class="control-label col-xs-3" id="label-title" style="color:white">User type</label>
+                <div class="col-xs-9">
+                    <select class="form-control" ng-model="admin.newUserType">
+                        <option value="0">Social Worker</option>
+                        <option value="1">Admin</option>
+                    </select>
+                </div>
+            </div>
+            <br><br>
+
+            <div class="form-group">
+                <button type="submit" class="btn btn-block btn-info">Create</button>
+            </div> 
+            <br>
+        </div>
+
+    </form>
+</div>

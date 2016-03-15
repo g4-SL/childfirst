@@ -1,0 +1,30 @@
+<!--
+form-chooseLanguage.html 
+Author: Capstone Child First Group 54
+        Sarah Louise Leong
+Last Updated: 10 March 2015 
+Description: form layout container for choosing a language page
+-->
+
+<h1>{{translation.lan.LANGUAGE_PREFERENCE}}</h1>
+<br>
+
+<div class="form-group row">
+<div class="col-xs-6 col-xs-offset-3">
+	<p style="color:black">{{translation.lan.CHOOSE_LANGUAGE_DESCRIPTION}}</p>
+	<select class="form-control" ng-change="translate()" ng-init="init()" ng-model="formData.selectedLanguage" default-option="Select a language">
+		<option value="en">English</option>
+		<option value="ja">Japanese</option>
+	</select>
+</div>
+</div>
+<br><br>
+
+<!-- submit button to move to the next section -->
+<div class="form-group row">
+<div class="col-xs-4 col-xs-offset-4">
+    <a ui-sref="form.reportinfo" class="btn btn-block btn-info">
+    {{translation.lan.CONFIRM}} <span class="glyphicon glyphicon-circle-arrow-right"></span>
+    </a>
+</div>
+</div>

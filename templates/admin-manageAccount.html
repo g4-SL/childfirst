@@ -1,0 +1,23 @@
+<form id="login-form" class="form-horizontal" ng-controller="loginFormController" ng-init="updateAccountList()">
+
+  <div class="container">
+
+      <accordion close-others="true">
+      <accordion-group heading="{{item[0]}}" ng-repeat="item in result_row">
+        <div class="row">
+          <div class="col-xs-9">
+<!--             Password: {{item[1]}} 
+            <br> -->
+            <p>Type of user: {{item[2]}}</p>
+            <br>
+          </div>
+
+          <div class="col-xs-3">
+            <button class="btn btn-default btn-sm" ng-click="goEditAccount(item[0])">Edit</button>
+          </div> 
+        </div>
+      </accordion-group>
+      </accordion>
+
+  </div>
+</form>

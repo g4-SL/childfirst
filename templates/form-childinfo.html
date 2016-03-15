@@ -1,0 +1,106 @@
+<!-- 
+form-childinfo.html 
+Author: Capstone Child First Group 54
+        Sarah Louise Leong
+Last Updated: 10 March 2015 
+Description: form layout container for child information page
+-->
+<h1>{{translation.lan.CHILD_INFORMATION}}</h1>
+<br>
+
+<div class="form-group">
+    <label class="control-label col-xs-3" id="label-title">{{translation.lan.CHILD_NAME}}</label>
+    <div class="col-xs-9">
+        <input type="text" class="form-control" ng-model="formData.childName" />
+    </div>
+</div>
+
+<div class="form-group">
+    <label class="control-label col-xs-3" id="label-title">{{translation.lan.GENDER}}</label>
+    <div class="col-xs-9">
+    <toggle-switch ng-model="formData.gender" on-label="Male" off-label="Female"></toggle-switch>
+    </div>
+</div>
+
+<div class="form-group">
+    <label class="control-label col-xs-3" id="label-title">{{translation.lan.SIBLING}}</label>
+    <div class="col-xs-9">
+        <toggle-switch ng-model="formData.sibling" on-label="Yes" off-label="No"></toggle-switch>
+    </div>
+</div>
+
+<div class="form-group">
+    <label class="control-label col-xs-3" id="label-title">{{translation.lan.DATE_OF_BIRTH}}</label>
+    <div class="col-xs-9">
+        <input type="date" class="form-control" ng-model="formData.date_childBirthday" />
+    </div>
+</div>
+
+<div class="form-group">
+    <label class="control-label col-xs-3">{{translation.lan.MAIN_OFFENDER}}</label>
+    <div class="container col-xs-9">
+        <div>
+            <label class="radio">
+                <input type="radio" ng-model="formData.mainOffender" value="1">{{translation.lan.BIOLOGICAL_FATHER}}</label>
+            <label class="radio">
+                <input type="radio" ng-model="formData.mainOffender" value="2">{{translation.lan.STEP_FATHER}}</label>
+            <label class="radio">
+                <input type="radio" ng-model="formData.mainOffender" value="3">{{translation.lan.BIOLOGICAL_MOTHER}}</label>
+            <label class="radio">
+                <input type="radio" ng-model="formData.mainOffender" value="4">{{translation.lan.STEP_MOTHER}}</label>
+            <label class="radio">
+                <input type="radio" ng-model="formData.mainOffender" value="5">{{translation.lan.OTHERS}}</label>
+        </div>
+        <div ng-show="formData.mainOffender==5">
+            <h6>{{translation.lan.OTHERS_DESC}}</h6>
+            <input type="text" class="form-control" ng-model="formData.mainOffenderOthers" placeholder="Others">
+        </div>
+    </div>
+</div>
+
+<div class="form-group">
+    <label class="control-label col-xs-3" id="label-title">{{translation.lan.MAIN_ABUSE_TYPE}}</label>
+    <div class="container col-xs-9">
+        <div>
+            <label class="radio">
+                <input type="radio" ng-model="formData.mainAbuseType" value="1">{{translation.lan.PHYSICAL_ABUSE}}</label>
+            <label class="radio">
+                <input type="radio" ng-model="formData.mainAbuseType" value="2">{{translation.lan.SEXUAL_ABUSE}}</label>
+            <label class="radio">
+                <input type="radio" ng-model="formData.mainAbuseType" value="3">{{translation.lan.NEGLECT}}</label>
+            <label class="radio">
+                <input type="radio" ng-model="formData.mainAbuseType" value="4">{{translation.lan.EMOTIONAL_ABUSE}}</label>
+        </div>
+    </div>
+</div>
+
+<div class="form-group">
+    <label class="control-label col-xs-3" id="label-title">{{translation.lan.STATE}}</label>
+    <div class="container col-xs-9">
+        <div>
+            <label class="radio">
+                <input type="radio" ng-model="formData.state" value="1">{{translation.lan.MEDICAL_DIAGNOSIS}}</label>
+            <label class="radio">
+                <input type="radio" ng-model="formData.state" value="2">{{translation.lan.MENTALLY_HANDICAPPED}}</label>
+            <label class="radio">
+                <input type="radio" ng-model="formData.state" value="3">{{translation.lan.PHYSICALLY_HANDICAPPED}}</label>
+            <label class="radio">
+                <input type="radio" ng-model="formData.state" value="4">{{translation.lan.SOCIAL_WITHDRAW}}</label>
+        </div>
+    </div>
+</div>
+<br><br>
+
+<!-- submit button to move to the next section -->
+<div class="form-group row">
+<div class="col-xs-3">
+    <a ui-sref="form.reportinfo" class="btn btn-block btn-info">
+    <span class="glyphicon glyphicon-circle-arrow-left"></span>     {{translation.lan.PREVIOUS_SECTION}}
+    </a>
+</div>
+<div class="col-xs-3 col-xs-offset-6">
+    <a ui-sref="form.checklist" class="btn btn-block btn-info">
+    {{translation.lan.NEXT_SECTION}}     <span class="glyphicon glyphicon-circle-arrow-right"></span>
+    </a>
+</div>
+</div>
